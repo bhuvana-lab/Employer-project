@@ -1,0 +1,24 @@
+
+<div class="class1" style="text-align: center">
+    <h1> {{message}}</h1>>
+
+</div>
+<form>
+    <label for="E_id">Employer ID:</label><br>
+    <input type="text" [(ngModel)]="User.E_id" id=E_id name="E_id"><br>
+    
+    <label for="E_first_name">Please enter the Employer's First Name</label><br>
+    <input type="text" [(ngModel)]="User.E_first_name" id="E_first_name" name="E_first_name"><br>
+    
+    <label for="E_last_name">Please enter the Employer's Last name:</label><br>
+    <input type="text" [(ngModel)]="User.E_last_name" id="E_last_name" name="E_last_name"><br>
+    
+    <label for="E_phone">Please enter the Employer's Phone number:</label><br>
+    <input type="text" [(ngModel)]="User.E_phone" id="E_phone" name="E_phone"><br>
+    
+    <label for="E_salary">Please enter the Employer's present salary:</label><br>
+    <input type="text" [(ngModel)]="User.E_salary" id="E_salary" name="E_salary"><br>
+    
+    <input class="btn btn-success" type="submit"name="submit_reg" value="Register" (click)="registerNow()">
+
+</form>

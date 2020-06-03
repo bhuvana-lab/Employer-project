@@ -1,0 +1,23 @@
+<p>Welcome Employer details page :)</p>
+<div>
+<table>
+    <thead>
+        <tr>
+            <td>Employer ID.........</td>
+            <td>Employer first name........</td>
+            <td>Employer last name........</td>
+            <td>Employer salary.......</td>
+            <td>Employer phone.......</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.E_id}} </td>
+            <td>{{user.E_first_name}} </td>
+            <td>{{user.E_last_name}} </td>
+            <td>{{user.E_salary}} </td>
+            <td>{{user.E_phone}} </td>
+        </tr>
+    </tbody>
+</table>
+</div>
